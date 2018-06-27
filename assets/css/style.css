@@ -57,4 +57,22 @@ body{
 
  #main-content{
      padding:30px;
+     overflow:auto;
+ }
+
+ #image-content{
+     float: left;
+     margin-right:20px;
+ }
+
+ #paragraph-content{
+   line-height:40px;
+ }
+
+ p{
+     margin-bottom:20px;
+ }
+
+ #footer-wrapper{
+     clear:both;
  }
