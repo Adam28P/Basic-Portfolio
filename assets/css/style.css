@@ -94,6 +94,11 @@ h1{
      margin-right:20px;
  }
 
+ #image-content img{
+    width:200px;
+    height:auto;
+ }
+
  #paragraph-content{
    margin-top:25px;
    line-height:30px;
