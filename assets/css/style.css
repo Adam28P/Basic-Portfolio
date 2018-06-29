@@ -157,7 +157,7 @@ h1{
     height:200px;
 }
 
-.container {
+.imageContainer {
     position: relative;
     float:left;
     color: white;
@@ -165,7 +165,7 @@ h1{
     margin-bottom:40px;
 }
 
-.centered {
+.centeredTitle {
     position: absolute;
     top: 78%;
     left: 50%;
