@@ -59,13 +59,29 @@ h1{
 #main-nav ul li{
     float: left;
     margin-right: 10px;
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+}
+
+#main-nav ul :last-child{
+    margin-right: 0px;
+    border: none;
+    padding: 0px;
 }
 
 #main-nav ul li a {
     text-decoration: none;
     color:#777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height:24px;
 }
+
+#main-nav ul li a:hover {
+    text-decoration: none;
+    color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 
 #main-wrapper{
     background-color: #fff;
@@ -79,6 +95,7 @@ h1{
  #main-content{
      padding:30px;
      overflow:auto;
+     border: 1px solid #ddd;
  }
 
  #main-content h1{
